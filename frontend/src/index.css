@@ -1,0 +1,125 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(160deg, #FFD699 30%, #FFFFFF 70%); /* Softer Orange-White Mix */
+    font-family: 'Arial', sans-serif;
+  }
+  /* #FFFFFF  */
+
+  .welcome-container {
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Increase spacing between boxes */
+    padding: 50px; /* Ensure padding for overall spacing */
+  }
+  /*.box {
+    width: 250px;
+    height: 150px;
+    background-color: #FFA500; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    margin: 10px; 
+  }
+  
+  .box:hover {
+    transform: scale(1.05);
+  }*/
+    
+  
+
+.logo {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  background-color: #FFA500; /* Slightly darker orange for contrast */
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px; /* Rounded for aesthetics */
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+
+.login-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Adds space between boxes */
+  margin-top: 50px;
+}
+
+.login-box {
+  width: 280px;
+  height: 150px;
+  background-color: #ffb74d;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 15px; /* Adds space between boxes */
+}
+
+.login-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.form-container {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+  width: 300px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+span {
+  color: orange;
+  cursor: pointer;
+}
